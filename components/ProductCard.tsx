@@ -14,7 +14,7 @@ interface ProductCardProps {
           <div>
             <h3 className={`text-lg font-semibold ${titleColor}`}>{title}</h3>
             <p className="text-gray-600">{description}</p>
-            <a href="https://wa.me/1234567890" className="inline-block bg-cyan-500 text-white px-6 py-2 rounded-md mt-4 hover:bg-orange-600">Get in touch&gt;</a>
+            <a href="https://wa.me/+447549450544" className="inline-block bg-cyan-500 text-white px-6 py-2 rounded-md mt-4 hover:bg-orange-600">Book my session</a>
           </div>
         </div>
         <span className="absolute top-4 right-4 bg-yellow-200 text-black px-3 py-1 rounded-full text-sm">{price}</span>
