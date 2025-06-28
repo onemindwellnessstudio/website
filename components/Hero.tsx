@@ -19,7 +19,7 @@ export default function Hero() {
           Consciousness-Based Coaching for Lasting Peace
         </p>
         <div className="flex justify-center space-x-4 mt-4 text-gray-400 hover:text-gray-600 text-3xl">
-          <a href="https://wa.me/+44759450544" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/+447549450544" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
           </a>
           <a href="https://t.me/onemindwellness" target="_blank" rel="noopener noreferrer">
