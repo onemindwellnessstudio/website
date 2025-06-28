@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
     "test": "echo \"No tests defined\" && exit 0"
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
+    
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
