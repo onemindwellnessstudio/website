@@ -5,11 +5,10 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "test": "echo \"No tests defined\" && exit 0"
-    "export": "next export",
-    "predeploy": "npm run build && npm run export",
+    "predeploy": "npm run export",
     "deploy": "gh-pages -d out"
     
   },
