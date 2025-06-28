@@ -10,7 +10,7 @@ export default function NewsletterForm() {
         </p>
         <div className="mt-4">
           <a
-            href="https://wa.me/1234567890"
+            href="https://wa.me/+447549450544"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-cyan-500 text-white px-6 py-2 rounded-md mt-4 hover:bg-orange-600"
